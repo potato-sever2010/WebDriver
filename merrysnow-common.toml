@@ -1,0 +1,30 @@
+
+["Merry Snow"]
+	#雪片无碰撞。
+	merrySnowLayer = true
+	#细雪有台阶碰撞箱且无冷冻伤害。
+	merryPowderSnow = true
+	#下雪区块不刷怪。
+	merrySnowWeather = true
+
+["Sunny Snow"]
+	#晴雪效果系数。
+	#Range: 0.1 ~ 1.0
+	sunnySnow = 0.5
+	#随机晴雪效果。
+	randomSunnySnow = false
+
+["Biome Snow"]
+	#是否全群系下雪：true、false、default
+	enforceSnowWeather = "true"
+	#是否全群系积雪：true、false、default
+	enforceSnowCover = "false"
+	#是否全群系结冰：true、false、default
+	enforceIceFreeze = "default"
+	#"minecraft:forest=snow", "minecraft:ocean=rain", "minecraft:jungle=none"
+	weatherModify = []
+	#"minecraft:forest=true", "minecraft:ocean=false"
+	snowModify = []
+	#"minecraft:forest=true", "minecraft:ocean=false"
+	iceModify = []
+
